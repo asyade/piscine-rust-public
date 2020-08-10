@@ -1,0 +1,60 @@
+[subject]
+description = """
+Everything that is related to compilation and documentation.
+"""
+
+[ex00]
+description = """
+Create a cargo project that when run outputs "Hello, world!".
+"""
+
+[ex01]
+description = """
+Create a cargo project that when run outputs "Hello, {name}!" where name is the first argument.
+
+If there is no arguments, outputs "Hello world!".
+"""
+
+[ex02]
+description = """
+Create a project that when run outputs all the numbers between `[x, y[`
+where x is the first and y is the second argument. Numbers could be negatives.
+
+If the bounds are not valid or missing output an error message and quit.
+"""
+
+[ex03]
+description = """
+Create a project that when run outputs the sum of all the numbers between `[x, y[`
+where x is the first and y is the second argument. Numbers could be negatives.
+
+If the bounds are not valid or missing output an error message and quit.
+"""
+
+[ex04]
+description = """
+Create a project that when run outputs the number of times the character 'a' and 'A'
+exists in the first argument.
+
+If there is no arguments, outputs "Whoops!".
+"""
+
+[ex05]
+description = """
+Create a project with a main and another function with this signature:
+
+    fn average(numbers: &[i32]) -> Option<f64>;
+
+This function must return the average of all the numbers in the given slice,
+if the slice is empty you must return None.
+
+This times you will add 2 tests.
+
+Your program must read the first argument and do the average of all numbers in it,
+separated by commas (e.g. 1,2,3,4).
+If one number is not correctly formatted, display an error and quit.
+
+If no argument are provided display "Give me more!".
+
+Your project must pass all the tests, `cargo test` will help you.
+"""

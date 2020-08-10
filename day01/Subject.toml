@@ -1,0 +1,41 @@
+[subject]
+description = """
+"""
+
+[ex00]
+description = """
+Write a program that print the numbers from 1 to 100 following these rules, for multiples of three print "Fizz" instead of the number and for the multiples of five print "Buzz". For numbers which are multiples of both three and five print “FizzBuzz"""
+
+[ex01]
+description = """
+Create a project with two binaries called fibo and recursive_fibo (you have to use the same .toml file for this)
+Both binary take an index as parameter and print the n-th element of the fibonacci suite (According the fibonacci suite begin at 0, 1, 1, 2).
+As their name suggests the first one have to use an iterative approach and the seconde one a recursive approach.
+
+usage:
+    $fibo 0
+    0
+"""
+
+[ex02]
+description = """
+Create a binary project called counter, i.e take two parametter and print the occurence count of the seconde parameter  in the first one.
+
+usage:
+    $./counter HelloWorld World
+    1
+"""
+
+[ex03]
+description = """
+Create a binary project called replace, i.e take tree parameter and print the first one before replacing each occurence of the seconde parammeter by the last.
+
+usage:
+    $./replace SalutToto Toto Tata
+    SalutTata
+"""
+
+[ex04]
+description = """
+Create a binary project called note, i.e read the standard input and append to a file named "NOTES.txt"
+"""
